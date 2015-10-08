@@ -13,6 +13,9 @@ get '/' do
   File.read('app/index.html')
 end
 
+get '/hi' do
+		"Meow says the cat"
+end
 # # CRUD routes
 # post '/' do
 # #  .. create something ..
