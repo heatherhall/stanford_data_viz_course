@@ -69,7 +69,9 @@
 						<h3>Visualizing Continuous Glucose Monitoring (CGM) Data</h3>
 						<p>Assignment 1: tell a story with data as the primary medium. </p>
 						<p>In this visualization, I wanted to show how useful CGM data can be for understanding diabetes. </p>
-						<iframe width="100%" height="400" src="http://jsfiddle.net/heatherhall/hedowuhd/7/embedded/result,js/"  frameborder="0"></iframe>
+
+						<iframe width="100%" height="700" src="http://jsfiddle.net/heatherhall/hedowuhd/7/embedded/result,js/"  frameborder="0"></iframe>
+						<!-- able to add local version, but the CSS formatting is off 1 -->
 						<hr>
 					</div>
 					<!-- end assignment 1 -->
@@ -83,19 +85,6 @@
 						<hr>
 					</div>
 
-
-					<!-- begin assignment 2 -->
-					<div class=".col-xs-12 .col-md-8">
-						<h3>Particles in a Box three.js</h3>
-						<p>Assignment 2: add controls to particle simulation</p>
-						<p>work in progress.... </p>
-						<iframe width="750" height="530" src="http://jsfiddle.net/heatherhall/kp65wqLb/embedded/result,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-						<hr>
-					</div>
-					<!-- end assignment 12-->
-
-
-
 					<!-- begin assignment 4 -->
 					<div class=".col-xs-12 .col-md-8">
 						<h3>Controllable Particle System with Gravity</h3>
@@ -107,21 +96,25 @@
 					</div>
 					<!-- end assignment 4 -->
 
-					<!-- begin viz 1 -->
+					<!-- begin assignment 2 -->
 					<div class=".col-xs-12 .col-md-8">
-						<h3>Demo Visualization on ABC</h3>
-						<p>In this visualization, I wanted to display a, b, and c. </p>
-						<canvas id="viz_1"></canvas>
+						<h3>Particles in a Box three.js</h3>
+						<p>Assignment 2: add controls to particle simulation</p>
+						<p><a href = 'my_threejs_particles.html'>work in progress.... </a></p>
+
+						<iframe width="750" height="530" src="http://jsfiddle.net/heatherhall/kp65wqLb/embedded/result,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 						<hr>
 					</div>
-					<!-- end viz 1 -->
+					<!-- end assignment 12-->
+
 				
 
 					<!-- begin boids simulation -->
 					<div class=".col-xs-12 .col-md-8">
 						<h3>Boids Simulation in three.js</h3>
 						<p>In this visualization, I wanted to implement the boids particle simulation. </p>
-						<a href="boids_threejs.html">Three Boid Visualization Page</a>
+						<a href="boids_threejs.html">Three.js Boids Simulation</a>
+						<img height = 300 src="assets/images/boids.png"/>
 						<hr>
 					</div>
 					<!-- end viz 2 -->
@@ -147,12 +140,18 @@
 
 	<script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js'></script>	
 	<script src='assets/js/noisy_lines.js'></script>
 	<script src='assets/js/rainbow_particles.js'></script>
 	<script src='assets/js/glucose_story_processing.js'></script>
+	<script src='assets/js/glucose_story_d3.js'></script>
 
 </body>
 </html>
